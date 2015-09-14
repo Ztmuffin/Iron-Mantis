@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\FunctionsAndVariables.cs" />
      <Compile Include="Assets\VarynFuncTest.cs" />
  <Reference Include="UnityEngine.Analytics">
