@@ -6,22 +6,20 @@ public class ifstatements1 : MonoBehaviour
 	private float HowHigh = 3f;	
 	private float TooHigh = 5f;
 
-	void Start () 
+	void Update () 
 	{
-		Debug.Log (transform.position.y);
 		if (transform.position.y <= HowHigh)
 
-	{
-		print("Incomming!");
-	}
+		{
+			print("Incomming!");
+		}
 		else if(transform.position.y >= TooHigh)
-	{
-		print("I'm flying!");
-	}
-
+		{
+			print("I'm flying!");
+		}
 		else 
-	{
-		print("I'm getting closer");
-	}
+		{
+			print("I'm getting closer");
+		}
 	}
 }
