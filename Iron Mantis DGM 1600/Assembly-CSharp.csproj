@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AnotherClass.cs" />
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\FlyScript1.cs" />
      <Compile Include="Assets\FunctionsAndVariables.cs" />
@@ -54,6 +55,7 @@
      <Compile Include="Assets\LoopsPractice1.cs" />
      <Compile Include="Assets\LoopsPractice2.cs" />
      <Compile Include="Assets\LoopsPractice3.cs" />
+     <Compile Include="Assets\ScopePractice.cs" />
      <Compile Include="Assets\VarynFuncTest.cs" />
      <Compile Include="Assets\ifstatements1.cs" />
  <Reference Include="UnityEngine.Analytics">
