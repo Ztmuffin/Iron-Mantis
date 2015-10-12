@@ -3,33 +3,24 @@ using System.Collections;
 
 public class ScopePractice : MonoBehaviour 
 {
-/*The following 3 int's are in the scope of the class "Scope Practice".
-(defined by the curly braces) {} */
-	public int joe = 10;
+	public int oranges = 3;
 	
-	private int sue = 0;
-	private int john = 5;
+	public int tomatoes = 14;
+	private int carrots = 2;
 	
-	private AnotherClass myOtherClass;
-	
+	private AnotherClass myotherclass = new AnotherClass();
 	void Start ()
 	{
-		joe = 24;
-		
-		myOtherClass = new AnotherClass();
-		myOtherClass.FruitMachine(joe, myOtherClass.apples);
+	myotherclass.Purchase(oranges, carrots);
 	}
-	// This will be the example
-	// any variables in here are not in scope with the class "Scope Practice".
-	void Example(int home, int work)
+	void Example (int _wall, int _floor)
 	{
 		int answer;
-		answer= home * work * joe;
-		Debug.Log (answer);
+		answer = _wall * _floor * oranges;
+		Debug.Log(answer);
 	}
-	
-	void Update () 
-	{
-		Debug.Log ("Joe is"+joe+"years old");
-	}
+	void Update()
+		{
+			Debug.Log("There are "+oranges + " oranges");
+		}
 }

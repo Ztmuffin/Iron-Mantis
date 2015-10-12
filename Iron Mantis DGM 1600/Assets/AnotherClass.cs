@@ -3,26 +3,23 @@ using System.Collections;
 
 public class AnotherClass : MonoBehaviour
 {
-	public int apples;
-	public int bananas;
+	public int phones;
+	public int tablets;
 	
+	private int earbuds;
+	private int glass;
 	
-	private int stapler;
-	private int sellotape;
-	
-	
-	public void FruitMachine (int a, int b)
+	public void Purchase (int a, int b)
 	{
 		int answer;
 		answer = a + b;
-		Debug.Log("Fruit total: " + answer);
+		Debug.Log("Items you can purchase: " + answer);
 	}
 	
-	
-	private void OfficeSort (int a, int b)
+	private void FreeStuff (int a, int b)
 	{
 		int answer;
 		answer = a + b;
-		Debug.Log("Office Supplies total: " + answer);
+		Debug.Log("What you can get for free: " + answer);
 	}
 }
