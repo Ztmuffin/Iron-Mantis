@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\AnotherClass.cs" />
      <Compile Include="Assets\Classes.cs" />
+     <Compile Include="Assets\ClassesPractice.cs" />
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\FlyScript1.cs" />
      <Compile Include="Assets\FunctionsAndVariables.cs" />
@@ -56,9 +57,9 @@
      <Compile Include="Assets\LoopsPractice1.cs" />
      <Compile Include="Assets\LoopsPractice2.cs" />
      <Compile Include="Assets\LoopsPractice3.cs" />
-     <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\ScopePractice.cs" />
      <Compile Include="Assets\VarynFuncTest.cs" />
+     <Compile Include="Assets\arrays.cs" />
      <Compile Include="Assets\ifstatements1.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
