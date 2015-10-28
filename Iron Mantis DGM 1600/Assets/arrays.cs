@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class arrays : MonoBehaviour {
+public class arrays : MonoBehaviour 
+{
+public GameObject[] somethingElse;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
 	// Update is called once per frame
-	void Update () {
-	
+	void Start () 
+	{
+		somethingElse = GameObject.FindGameObjectsWithTag ("sphere");
+		for (int i=0; i<somethingElse.Length; i++)
+		{
+		Debug.Log("There are " +i+ " spheres");
+		} 
+		
 	}
 }
