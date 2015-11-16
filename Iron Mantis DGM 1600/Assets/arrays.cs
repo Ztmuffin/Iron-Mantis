@@ -13,6 +13,5 @@ public GameObject[] somethingElse;
 		{
 		Debug.Log("There are " +i+ " spheres");
 		} 
-		
 	}
 }
