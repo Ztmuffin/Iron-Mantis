@@ -17,7 +17,21 @@ public class SwitchPractice : MonoBehaviour
 		 	break;
 		 case Dificulty.Normal:
 		 	print("you only recieve 2 damage for every hit");
+		 	break;
+		 case Dificulty.Hard:
+		 	print("you will recieve 3 damage for every hit");
+		 	break;
+		 case Dificulty.Expert:
+		 	print("you will recieve 4 damage for every hit");
+		 	break;
+		 default:
+		 	print("there is insufficient data");
+		 	break;
 		}
+	}
+	void Update()
+	{
+		DamageRecieved ();
 	}
 }	
 

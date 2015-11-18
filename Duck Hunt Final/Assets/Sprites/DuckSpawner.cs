@@ -4,7 +4,7 @@ using System.Collections;
 public class DuckSpawner : MonoBehaviour 
 {
 	public GameObject duck;
-	// Use this for initialization
+	// Use this for initiaoklization
 	//void Start () {
 	
 	//}
@@ -14,5 +14,6 @@ public class DuckSpawner : MonoBehaviour
 	public void SpawnDuck()
 	{
 		Debug.Log("Spawn Duck");
+		Instantiate(duck, transform.position, Quaternion.identity);
 	}
 }
