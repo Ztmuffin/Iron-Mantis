@@ -23,11 +23,11 @@ public class DirectionChanger : MonoBehaviour {
 
 			if(changer == Changer.Horizontal)
 			{
-				movement.DirectionChanger(new Vector3(1,-1,0));
+				movement.DirectionChanger(new Vector3(-1,1,0));
 			}
 			else if(changer == Changer.Vertical)
 			{
-
+				movement.DirectionChanger(new Vector3(1,-1,0));
 			}
 		}
 	}
